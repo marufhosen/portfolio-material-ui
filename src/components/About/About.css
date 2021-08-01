@@ -1,0 +1,18 @@
+.about-content {
+  display: grid;
+  /* text-align: center; */
+  grid-gap: 30px;
+}
+.about-img {
+  text-align: center;
+}
+/* @media (min-width: 600px) {
+  .about-img {
+    text-align: center;
+  }
+} */
+@media (min-width: 991px) {
+  .about-content {
+    grid-template-columns: repeat(2, auto);
+  }
+}
