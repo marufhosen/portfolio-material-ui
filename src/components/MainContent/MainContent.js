@@ -9,16 +9,16 @@ const MainContent = () => {
   return (
     <div style={{ textAlign: "center" }}>
       <div>
-        <img style={{ marginTop: "" }} src={marufImg} width="25%" alt="" />
+        <img style={{ marginTop: "" }} src={marufImg} width="300px" alt="" />
       </div>
       <div style={{ marginTop: 20 }}>
         <Typography variant="h4" color="primary">
           Maruf Hosen
         </Typography>
-        <Typography style={{ width: "50%", margin: "auto" }}>
+        {/* <Typography style={{ width: "50%", margin: "auto" }}>
           I am a person who is positive about every aspect of life. There are
           many things, i like to do, to see and to experience.
-        </Typography>
+        </Typography> */}
         <Typical
           steps={[
             "Javascript Developer",

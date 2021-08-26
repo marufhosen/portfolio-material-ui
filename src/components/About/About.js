@@ -48,7 +48,7 @@ function a11yProps(index) {
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: theme.palette.background.paper,
-    width: "",
+    maxWidth: "600px",
   },
 }));
 
@@ -120,7 +120,9 @@ const About = () => {
             <Divider></Divider>
           </TabPanel>
           <TabPanel value={value} index={2} dir={theme.direction}>
-            <Typography variant="h6">Daffodil International University</Typography>
+            <Typography variant="h6">
+              Daffodil International University
+            </Typography>
             <p>Bachelor of science, Computer Science And Engineering </p>
             <small>CGPA: 3.30</small>
             <p>2017-2021</p>
@@ -130,7 +132,9 @@ const About = () => {
             <small>GPA: 4.81</small>
             <p>2014-2016</p>
             <Divider></Divider>
-            <Typography variant="h6">Anwara Hashem Memo. High School</Typography>
+            <Typography variant="h6">
+              Anwara Hashem Memo. High School
+            </Typography>
             <p>SSC</p>
             <small>GPA: 4.83</small>
             <p>2012-2014</p>

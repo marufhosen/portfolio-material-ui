@@ -5,6 +5,7 @@
 }
 .about-img {
   text-align: center;
+  width: 400px;
 }
 /* @media (min-width: 600px) {
   .about-img {
