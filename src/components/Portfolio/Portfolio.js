@@ -33,130 +33,141 @@ const useStyles = makeStyles((theme) => ({
 const Portfolio = () => {
   const classes = useStyles();
   return (
-    <div className="portfolio-container">
-      <div>
-        <Card className={classes.root}>
-          <CardHeader
-            avatar={
-              <Avatar aria-label="recipe" className={classes.avatar}>
-                S
-              </Avatar>
-            }
-            action={
-              <IconButton aria-label="settings">
-                <MoreVertIcon />
-              </IconButton>
-            }
-            title="Sports Media"
-          />
-          <CardMedia
-            className={classes.media}
-            image={soprtMedia}
-            title="Soprt Media"
-          />
-          <CardContent>
-            <Typography variant="body2" color="textSecondary" component="p">
-              <strong>You can know all premier league club info. </strong>
-              <Divider style={{ margin: 10 }}></Divider>
-              Key Technology: React, React Router, React Hooks.
-            </Typography>
-          </CardContent>
-          <CardActions disableSpacing>
-            <Button
-              color="secondary"
-              href="https://sports-media01.netlify.app/"
-            >
-              <VisibilityIcon />
-            </Button>
-            <Button
-              color="secondary"
-              href="https://github.com/marufhosen/react-router-sportMedia"
-            >
-              <GitHubIcon />
-            </Button>
-          </CardActions>
-        </Card>
+    <div>
+      <div className="portfolio-container">
+        <div>
+          <Card className={classes.root}>
+            <CardHeader
+              avatar={
+                <Avatar aria-label="recipe" className={classes.avatar}>
+                  S
+                </Avatar>
+              }
+              action={
+                <IconButton aria-label="settings">
+                  <MoreVertIcon />
+                </IconButton>
+              }
+              title="Sports Media"
+            />
+            <CardMedia
+              className={classes.media}
+              image={soprtMedia}
+              title="Soprt Media"
+            />
+            <CardContent>
+              <Typography variant="body2" color="textSecondary" component="p">
+                <strong>You can know all premier league club info. </strong>
+                <Divider style={{ margin: 10 }}></Divider>
+                Key Technology: React, React Router, React Hooks.
+              </Typography>
+            </CardContent>
+            <CardActions disableSpacing>
+              <Button
+                color="secondary"
+                href="https://sports-media01.netlify.app/"
+              >
+                <VisibilityIcon />
+              </Button>
+              <Button
+                color="secondary"
+                href="https://github.com/marufhosen/react-router-sportMedia"
+              >
+                <GitHubIcon />
+              </Button>
+            </CardActions>
+          </Card>
+        </div>
+        <div>
+          <Card className={classes.root}>
+            <CardHeader
+              avatar={
+                <Avatar aria-label="recipe" className={classes.avatar}>
+                  Q
+                </Avatar>
+              }
+              action={
+                <IconButton aria-label="settings">
+                  <MoreVertIcon />
+                </IconButton>
+              }
+              title="Quick Tics"
+            />
+            <CardMedia
+              className={classes.media}
+              image={quicktics}
+              title="Quick Tics"
+            />
+            <CardContent>
+              <Typography variant="body2" color="textSecondary" component="p">
+                <strong>You can buy ticket to go anywhere.</strong>
+                <Divider style={{ margin: 10 }}></Divider>
+                Key Technology: React, Firabese Authentication, Firebase hosting
+              </Typography>
+            </CardContent>
+            <CardActions disableSpacing>
+              <Button color="secondary" href="https://quick-ticket-307.web.app">
+                <VisibilityIcon />
+              </Button>
+              <Button
+                color="secondary"
+                href="https://github.com/marufhosen/quick-ticks"
+              >
+                <GitHubIcon />
+              </Button>
+            </CardActions>
+          </Card>
+        </div>
+        <div>
+          <Card className={classes.root}>
+            <CardHeader
+              avatar={
+                <Avatar aria-label="recipe" className={classes.avatar}>
+                  H
+                </Avatar>
+              }
+              action={
+                <IconButton aria-label="settings">
+                  <MoreVertIcon />
+                </IconButton>
+              }
+              title="Hotel Gallary"
+            />
+            <CardMedia
+              className={classes.media}
+              image={hotelGallary}
+              title="Hotel Gallary"
+            />
+            <CardContent>
+              <Typography variant="body2" color="textSecondary" component="p">
+                <strong>Authentic user can book hotel room </strong>
+                <Divider style={{ margin: 10 }}></Divider>
+                Key Technology: React,Form Validayion, Firabese Authentication,
+                Firebase hosting
+              </Typography>
+            </CardContent>
+            <CardActions disableSpacing>
+              <Button color="secondary" href="https://hotel-gallary.web.app/">
+                <VisibilityIcon />
+              </Button>
+              <Button
+                color="secondary"
+                href="https://github.com/marufhosen/hotel-booking-auth"
+              >
+                <GitHubIcon />
+              </Button>
+            </CardActions>
+          </Card>
+        </div>
       </div>
-      <div>
-        <Card className={classes.root}>
-          <CardHeader
-            avatar={
-              <Avatar aria-label="recipe" className={classes.avatar}>
-                Q
-              </Avatar>
-            }
-            action={
-              <IconButton aria-label="settings">
-                <MoreVertIcon />
-              </IconButton>
-            }
-            title="Quick Tics"
-          />
-          <CardMedia
-            className={classes.media}
-            image={quicktics}
-            title="Quick Tics"
-          />
-          <CardContent>
-            <Typography variant="body2" color="textSecondary" component="p">
-              <strong>You can buy ticket to go anywhere.</strong>
-              <Divider style={{ margin: 10 }}></Divider>
-              Key Technology: React, Firabese Authentication, Firebase hosting
-            </Typography>
-          </CardContent>
-          <CardActions disableSpacing>
-            <Button color="secondary" href="https://quick-ticket-307.web.app">
-              <VisibilityIcon />
-            </Button>
-            <Button
-              color="secondary"
-              href="https://github.com/marufhosen/quick-ticks"
-            >
-              <GitHubIcon />
-            </Button>
-          </CardActions>
-        </Card>
-      </div>
-      <div>
-        <Card className={classes.root}>
-          <CardHeader
-            avatar={
-              <Avatar aria-label="recipe" className={classes.avatar}>
-                H
-              </Avatar>
-            }
-            action={
-              <IconButton aria-label="settings">
-                <MoreVertIcon />
-              </IconButton>
-            }
-            title="Hotel Gallary"
-          />
-          <CardMedia
-            className={classes.media}
-            image={hotelGallary}
-            title="Hotel Gallary"
-          />
-          <CardContent>
-            <Typography variant="body2" color="textSecondary" component="p">
-              <strong>Authentic user can book hotel room </strong>
-              <Divider style={{ margin: 10 }}></Divider>
-              Key Technology: React,Form Validayion, Firabese Authentication,
-              Firebase hosting
-            </Typography>
-          </CardContent>
-          <CardActions disableSpacing>
-            <Button color="secondary" href="https://hotel-gallary.web.app/">
-              <VisibilityIcon />
-            </Button>
-            <Button
-              color="secondary"
-              href="https://github.com/marufhosen/hotel-booking-auth"
-            >
-              <GitHubIcon />
-            </Button>
-          </CardActions>
-        </Card>
+      <div className="more-project">
+        <Button
+          href="https://github.com/marufhosen"
+          variant="contained"
+          color="primary"
+        >
+          MORE PROJECT
+        </Button>
       </div>
     </div>
   );

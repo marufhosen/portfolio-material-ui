@@ -4,6 +4,9 @@
   grid-gap: 50px;
   padding: 50px;
 }
+.more-project {
+  text-align: center;
+}
 @media (min-width: 768px) {
   .portfolio-container {
     grid-template-columns: repeat(2, auto);
